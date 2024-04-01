@@ -1,6 +1,9 @@
 # AI Challenge
 Cypress tests for Bing AI chat
 
+## Support documentation
+https://docs.google.com/document/d/1dtrmzm9_bv1x_kOaIR0S13MfgVEpDlAVSJ_dvQOUqk4/edit?usp=sharing
+
 
 # How to run the tests
 
@@ -20,7 +23,7 @@ Lastly, you have two options to run the test cases:
 <img width="1184" alt="image" src="https://github.com/ivanlepeskevicius/AI_Challenge/assets/41808652/43ee422b-7038-49c5-bc4f-fe91712b59b8">
 
 
-# Notes
+## Notes
 
 You may notice some flakyness on the Image Recognition test cases, this may happen due to two different factors: 
 
