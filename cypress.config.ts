@@ -4,7 +4,7 @@ export default defineConfig({
   e2e: {
     baseUrl: "https://copilot.microsoft.com/?showconv=1",
     includeShadowDom: true,
-    defaultCommandTimeout: 50000,
+    // defaultCommandTimeout: 50000,
     reporter: 'mochawesome',
     reporterOptions: {
       reportDir: 'cypress/results',

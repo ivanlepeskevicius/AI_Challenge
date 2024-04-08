@@ -34,8 +34,8 @@ Cypress.Commands.add("askQuestion", (question: string) => {
 });
 
 Cypress.Commands.add("waitForResponse", () => {
-  cy.waitUntil(() => cy.get(stop_generating_btn).should("be.visible"));
-  cy.waitUntil(() => cy.get(stop_generating_btn).should("not.be.visible"));
+  cy.waitUntil(() => cy.get(stop_generating_btn, { timeout: 50000 }).should("be.visible"));
+  cy.waitUntil(() => cy.get(stop_generating_btn, { timeout: 50000 }).should("not.be.visible"));
 });
 
 Cypress.Commands.add("uploadImageUsingLink", (link, alias) => {
