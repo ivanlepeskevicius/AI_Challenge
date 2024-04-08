@@ -1,4 +1,3 @@
-import "cypress-wait-until";
 import {
   like_btn,
   dislike_btn,
